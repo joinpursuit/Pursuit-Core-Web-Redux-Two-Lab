@@ -5,8 +5,7 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          spec:
-            - cypress/integration/App.test.js
+          spec: cypress/integration/App.test.js
           start: npm start
           post-steps:
             - store_test_results:
