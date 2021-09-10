@@ -3,3 +3,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todos-list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.todos-list-btn {
+  border: none;
+  background: none;
+}
